@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7enawy Solutions - Your Technical Partner for Digital Growth</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- CDN Links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <!-- Local Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">7enawy Solutions</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div id="particles-js"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Your Technical Partner for Digital Growth.</h1>
+            <p class="cycling-text">
+                <span class="cycle-item active">Web Applications</span>
+                <span class="cycle-item">Mobile Solutions</span>
+                <span class="cycle-item">Custom ERPs</span>
+            </p>
+            <div class="hero-cta">
+                <a href="contact.html" class="cta-button primary">Get Started</a>
+                <a href="projects.html" class="cta-button secondary">View Our Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Who We Are Section -->
+    <section id="who-we-are" class="section">
+        <div class="container">
+            <div class="two-column-layout">
+                <div class="left-column">
+                    <h2>Who We Are</h2>
+                    <p>At 7enawy Solutions, we are passionate innovators and technical experts dedicated to transforming your digital vision into reality. With years of experience in cutting-edge technologies, we deliver scalable, robust solutions that drive business growth and exceed expectations. From concept to deployment, we are your trusted partner in navigating the digital landscape.</p>
+                    <a href="about.html" class="learn-more-btn">Learn More About Us</a>
+                </div>
+                <div class="right-column">
+                    <div class="counters-grid">
+                        <div class="counter-item">
+                            <div class="counter-number" data-target="150">0</div>
+                            <div class="counter-label">Projects Completed</div>
+                        </div>
+                        <div class="counter-item">
+                            <div class="counter-number" data-target="98">0</div>
+                            <div class="counter-label">Happy Clients</div>
+                        </div>
+                        <div class="counter-item">
+                            <div class="counter-number" data-target="500000">0</div>
+                            <div class="counter-label">Lines of Code</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview Section -->
+    <section id="services-overview" class="section">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Custom web applications built with modern frameworks and cutting-edge technologies.</p>
+                    <a href="services.html" class="service-link">Learn More</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Solutions</h3>
+                    <p>Native and cross-platform mobile apps that deliver exceptional user experiences.</p>
+                    <a href="services.html" class="service-link">Learn More</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Custom ERP Systems</h3>
+                    <p>Tailored enterprise solutions that streamline your business operations and workflows.</p>
+                    <a href="services.html" class="service-link">Learn More</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Solutions</h3>
+                    <p>Scalable cloud infrastructure and deployment solutions for modern applications.</p>
+                    <a href="services.html" class="service-link">Learn More</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Digital Transformation</h3>
+                    <p>Strategic consulting and implementation to modernize your digital presence.</p>
+                    <a href="services.html" class="service-link">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section id="featured-projects" class="section">
+        <div class="container">
+            <h2 class="section-title">A Glimpse of Our Work</h2>
+            <div class="swiper projects-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="https://via.placeholder.com/400x250/667eea/ffffff?text=E-Commerce+Platform" alt="E-Commerce Platform">
+                            </div>
+                            <div class="project-content">
+                                <h3>E-Commerce Platform</h3>
+                                <p>A comprehensive online marketplace with advanced features and seamless user experience.</p>
+                                <a href="projects.html" class="project-link">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="https://via.placeholder.com/400x250/764ba2/ffffff?text=Mobile+Banking+App" alt="Mobile Banking App">
+                            </div>
+                            <div class="project-content">
+                                <h3>Mobile Banking App</h3>
+                                <p>Secure and intuitive mobile banking solution with real-time transactions and analytics.</p>
+                                <a href="projects.html" class="project-link">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="https://via.placeholder.com/400x250/f093fb/ffffff?text=Healthcare+Management" alt="Healthcare Management System">
+                            </div>
+                            <div class="project-content">
+                                <h3>Healthcare Management System</h3>
+                                <p>Complete hospital management solution with patient records and appointment scheduling.</p>
+                                <a href="projects.html" class="project-link">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section id="tech-stack" class="section">
+        <div class="container">
+            <h2 class="section-title">Technologies We Master</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+                    <span>React</span>
+                </div>
+                <div class="tech-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+                    <span>Node.js</span>
+                </div>
+                <div class="tech-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                    <span>Python</span>
+                </div>
+                <div class="tech-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter">
+                    <span>Flutter</span>
+                </div>
+                <div class="tech-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                    <span>JavaScript</span>
+                </div>
+                <div class="tech-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript">
+                    <span>TypeScript</span>
+                </div>
+                <div class="tech-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB">
+                    <span>MongoDB</span>
+                </div>
+                <div class="tech-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL">
+                    <span>PostgreSQL</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section">
+        <div class="container">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <div class="swiper testimonials-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <i class="fas fa-quote-left quote-icon"></i>
+                                <p>"7enawy Solutions transformed our business with their innovative web platform. Their attention to detail and technical expertise exceeded our expectations."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="https://via.placeholder.com/80x80/4f46e5/ffffff?text=JS" alt="John Smith">
+                                <div class="author-info">
+                                    <h4>John Smith</h4>
+                                    <p>CEO, TechCorp</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <i class="fas fa-quote-left quote-icon"></i>
+                                <p>"The mobile app they developed for us increased our customer engagement by 300%. Outstanding work and professional service throughout the project."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="https://via.placeholder.com/80x80/7c3aed/ffffff?text=SJ" alt="Sarah Johnson">
+                                <div class="author-info">
+                                    <h4>Sarah Johnson</h4>
+                                    <p>Marketing Director, GrowthCo</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <i class="fas fa-quote-left quote-icon"></i>
+                                <p>"Their custom ERP solution streamlined our operations and saved us countless hours. The team's dedication and expertise are truly remarkable."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="https://via.placeholder.com/80x80/059669/ffffff?text=MD" alt="Michael Davis">
+                                <div class="author-info">
+                                    <h4>Michael Davis</h4>
+                                    <p>Operations Manager, LogiFlow</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <h3>7enawy Solutions</h3>
+                    </div>
+                    <p>&copy; 2024 7enawy Solutions. All rights reserved.</p>
+                </div>
+                <div class="footer-right">
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Local JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html> 
