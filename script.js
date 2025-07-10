@@ -231,6 +231,7 @@ function animateCounter(counterElement) {
     if (!numberElement) return;
     
     const target = parseInt(numberElement.getAttribute('data-target')) || parseInt(numberElement.textContent);
+    const suffix = numberElement.getAttribute('data-suffix') || '';
     const duration = 2000; // 2 seconds
     const start = performance.now();
     const startValue = 0;
@@ -243,13 +244,13 @@ function animateCounter(counterElement) {
         const easeOutQuart = 1 - Math.pow(1 - progress, 4);
         const currentValue = Math.floor(startValue + (target - startValue) * easeOutQuart);
         
-        // Format number with commas for large numbers
-        numberElement.textContent = currentValue.toLocaleString();
+        // Format number and add suffix if provided
+        numberElement.textContent = currentValue.toLocaleString() + suffix;
         
         if (progress < 1) {
             requestAnimationFrame(updateCounter);
         } else {
-            numberElement.textContent = target.toLocaleString();
+            numberElement.textContent = target.toLocaleString() + suffix;
         }
     }
     
